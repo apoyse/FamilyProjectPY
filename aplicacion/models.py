@@ -5,8 +5,9 @@ from django.db import models
 class Familiar(models.Model):
     name = models.CharField(max_length=40)
     apellido = models.CharField(max_length=40)
-    Tipofamilia = models.CharField( max_length=50)
-    edad = models.IntegerField()
-    id = models.IntegerField(primary_key=True)
+    tipofamilia = models.CharField( max_length=50)
+    edad = models.IntegerField(null=True)
+    fecha_nacimiento = models.DateField(null=True)
+    id = models.AutoField(primary_key=True)
 
 # Create your models here.
