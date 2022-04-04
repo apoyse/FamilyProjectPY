@@ -1,5 +1,7 @@
-# proyectofamilia
-Este es un proyecto realizado en clase en el curso de Python de Coderhouse. Este se trata de un MVT(modelo-vista-template) mostrar un template con los datos de los familiares cargados en una base de datos. 
+# MVT | Proyecto Familia
+Este es un proyecto para entregar en el curso de Python de Coderhouse. Este se trata de un MVT(modelo-vista-template).
+Consiste en mostrar en una web datos de familiares que fueron cargados en la base de datos.
+
 
 Se utilizo Python version 3.10.2 y django 4.0.3
 
