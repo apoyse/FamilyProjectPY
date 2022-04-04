@@ -4,7 +4,15 @@ Este se trata de un MVT (modelo-vista-template).
 Consiste en mostrar en una web datos de familiares que fueron cargados en la base de datos.
 
 
-Se utilizo Python version 3.10.2 y django 4.0.3
+
+
+
+Para usarlo:
+
+1. Tenes que tener instalado python version 3.10.2 y django version 4.0.3.
+2. Tenes que abrir la terminal en la carpeta
+3. Ejecutar en la terminal el comando python manage.py runserver
+4. Abrir la pagina web http://localhost:8000/inicio/
 
 Este es el model.py:
 
