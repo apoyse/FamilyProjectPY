@@ -10,5 +10,6 @@ def add(request):
 
 def page(request):
     familiares = Familiar.objects.all()
+    print(familiares)
     return render(request, 'aplicacion/index.html',{'familiares':familiares})
 # Create your views here.
